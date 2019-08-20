@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Analysis_5pointDialogFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mlist_date"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 1. Date : "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mlist_uvSensor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 2. UV_sensor :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mlist_temp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 3. Temperature :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mlist_hum"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 4. Humidity :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mlit_m1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 5. point1 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mlit_m2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 6. point2 : "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mlit_m3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 7. point3 :"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/mlit_m4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 8. point4 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mlit_m5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 9. point5 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/point_avg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 10. AVG :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/point_uni"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 11. Uni :"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</FrameLayout>

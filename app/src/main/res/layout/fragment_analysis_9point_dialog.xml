@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Analysis_9pointDialogFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/alist_date"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 1. Date :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alist_uvSensor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 2. UV_sensor :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alist_temp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 3. Temperature :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alist_hum"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 4. Humidity :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_a1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 5. point1 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_a2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 6. point2 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_a3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 7. point3 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_a4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 8. point4 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_a5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 9. point5 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_a6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 10. point6 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_a7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 11. point7 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_a8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 12. point8 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_a9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 13. point9 :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_avg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 14. AVG :"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/alit_uni"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text=" 15. Uni :"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

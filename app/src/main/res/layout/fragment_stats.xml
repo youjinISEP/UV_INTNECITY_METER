@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stats">
+
+    <LinearLayout
+        android:id="@+id/Analysis_mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Analysis_point5Layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Analysis_point5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="  Analysis(point5)"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/Analysis_point5Listview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                android:fastScrollEnabled="true"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Analysis_point9Layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Analysis_point9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="  Analysis(point9)"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/Analysis_point9Listview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                android:fastScrollEnabled="true"
+                android:padding="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

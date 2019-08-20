@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bluetooth">
+
+    <Switch
+        android:id="@+id/Bluetooth_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:text="Bluetooth"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:text="My Device"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Bluetooth_deviceTextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:text="device name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:paddingLeft="5dp"
+            android:text="Scanned Device List"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp" />
+
+        <ListView
+            android:id="@+id/Bluetooth_pairedListview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Bluetooth_searchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="2"
+        android:text="Search Another Device" />
+</LinearLayout>

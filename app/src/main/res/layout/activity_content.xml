@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Content_mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context=".ContentActivity">
+
+    <LinearLayout
+        android:id="@+id/Content_subLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:background="#777777"
+        android:orientation="horizontal"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp" >
+
+        <TextView
+            android:id="@+id/Content_uvTextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="365"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/Content_uvUnit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="nm"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/Content_tempTextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="22.3"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/Content_tempUnit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="°C"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/Content_humidTextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="55.7"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/Content_humidUnit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="%"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/Content_chargeTextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="CHARGE"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/Content_errorButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/circlebutton"
+            android:text="uv" />
+
+        <ImageButton
+            android:id="@+id/Content_btButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_bluetooth_disabled_black_24dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/Content_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_weight="10"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/Content_bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@android:color/darker_gray"
+        app:menu="@menu/bottom_nav_menu" />
+
+</LinearLayout>

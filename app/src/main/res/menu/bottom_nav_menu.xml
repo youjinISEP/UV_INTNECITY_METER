@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Content_homeBottom"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/Content_measurementBottom"
+        android:icon="@drawable/ic_show_chart_black_24dp"
+        android:title="Measurement" />
+
+    <item
+        android:id="@+id/Content_analysisBottom"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Analysis" />
+
+    <item
+        android:id="@+id/Content_statsBottom"
+        android:icon="@drawable/ic_insert_chart_black_24dp"
+        android:title="Stats" />
+
+    <item
+        android:id="@+id/Content_calibrationBottom"
+        android:icon="@drawable/ic_my_location_black_24dp"
+        android:title="Calibration" />
+
+</menu>
